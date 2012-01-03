@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+    <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/teste</property>
+    <property name="hibernate.connection.username">root</property>
+    <property name="hibernate.connection.password">delta1203</property>
+    <mapping class="br.system.bean.Cidade"/>
+    <mapping class="br.system.bean.Cliente"/>
+    <mapping class="br.system.bean.Empresa"/>
+    <mapping class="br.system.bean.Marca"/>
+    <mapping class="br.system.bean.Grupo"/>
+    <mapping class="br.system.bean.SubGrupo"/>
+    <mapping class="br.system.bean.Endereco"/>
+    <mapping class="br.system.bean.Usuario"/>
+  </session-factory>
+</hibernate-configuration>
