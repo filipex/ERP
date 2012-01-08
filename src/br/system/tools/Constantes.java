@@ -8,7 +8,7 @@ package br.system.tools;
  * @since 24/12/2011 18:40
  */
 
-public class MyConstants {
+public class Constantes {
 
     // Atributos de tabelas
     public static final String PARAMETRO_ID_CIDADE = "cdd_id";

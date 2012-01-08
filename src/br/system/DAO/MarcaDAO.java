@@ -11,11 +11,11 @@ import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.criterion.Restrictions;
 
-import static br.system.tools.MyConstants.PARAMETRO_ID_MARCA;
-import static br.system.tools.MyConstants.ERRO_INSERIR;
-import static br.system.tools.MyConstants.ERRO_EXCLUIR;
-import static br.system.tools.MyConstants.ERRO_PESQUISAR;
-import static br.system.tools.MyConstants.ERRO_LISTAR;
+import static br.system.tools.Constantes.PARAMETRO_ID_MARCA;
+import static br.system.tools.Constantes.ERRO_INSERIR;
+import static br.system.tools.Constantes.ERRO_EXCLUIR;
+import static br.system.tools.Constantes.ERRO_PESQUISAR;
+import static br.system.tools.Constantes.ERRO_LISTAR;
 
 /**
  *

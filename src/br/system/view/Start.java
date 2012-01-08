@@ -1,10 +1,7 @@
 
 package br.system.view;
 
-import javax.swing.JOptionPane;
 import javax.swing.UIManager;
-
-import static br.system.tools.MyConstants.MENSAGEM_ERRO;
 
 /**
  *
@@ -25,13 +22,7 @@ public class Start {
          * no qual será pega o Look And Feel do sistema operacional.
          */
 
-        /*MyJOptionPane my = new MyJOptionPane(null, true);
-        try {
-            int x = 100/0;
-        } catch (Exception e) {
-            my.showError("Testando mensagem de erro.", e, MENSAGEM_ERRO);
-            e.printStackTrace();
-        }*/
+         new tl_principal().setVisible(true);
     }
 
 }

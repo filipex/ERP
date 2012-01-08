@@ -12,10 +12,10 @@ import java.awt.Toolkit;
 import java.io.File;
 import javax.swing.ImageIcon;
 
-import static br.system.tools.MyConstants.MENSAGEM_ATENCAO;
-import static br.system.tools.MyConstants.MENSAGEM_ERRO;
-import static br.system.tools.MyConstants.MENSAGEM_INFORMACAO;
-import static br.system.tools.MyConstants.MENSAGEM_QUESTAO;
+import static br.system.tools.Constantes.MENSAGEM_ATENCAO;
+import static br.system.tools.Constantes.MENSAGEM_ERRO;
+import static br.system.tools.Constantes.MENSAGEM_INFORMACAO;
+import static br.system.tools.Constantes.MENSAGEM_QUESTAO;
 
 /**
  *

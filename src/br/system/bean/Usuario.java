@@ -42,8 +42,6 @@ public class Usuario implements Serializable {
 
     private String user_senha;
 
-    private String user_complemento;
-
     @Temporal(javax.persistence.TemporalType.TIMESTAMP)
     private Date user_datanascimento;
 
@@ -63,7 +61,6 @@ public class Usuario implements Serializable {
         this.user_numendereco = user_numendereco;
         this.user_login = user_login;
         this.user_senha = user_senha;
-        this.user_complemento = user_complemento;
     }
 
     @Override
